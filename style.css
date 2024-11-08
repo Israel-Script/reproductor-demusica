@@ -1,1 +1,26 @@
-/* Estilos para el 
+/*Estilos para el reproductor*/
+* {
+    box-sizing: border-box;
+
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+
+    list-style:none ;
+    text-decoration: none;
+    font: size 1rem;;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.menu__de__navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+
+
+
+
+}
+
