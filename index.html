@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghost music</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="keywords" content=" Musica artistas escuchar sonido reggaeton rock pop">
     <meta name="description"
         content="Descubre Ghost Music, el portal definitivo para los amantes de la música. Sumérgete en un mundo sonoro donde cada nota cuenta una historia. Desde los clásicos eternos hasta las últimas tendencias, Ghost Music te ofrece una experiencia auditiva inolvidable. Explora, escucha y comparte la magia de la música sin límites.">
@@ -31,24 +32,27 @@
     <div>
         <header class="navbar">
             <nav class="navbar__nav">
-                <div class="menu__de__navegacion">
-                    <img src="/assets/Sin título-1 1.png" alt="">
-                    <button>
-                        <img src="/assets/hogar 1@2x.png" alt="">
-                    </button>
-                    <div>
-                        <input type="text" placeholder="buscar..." id="searchinput">
-                        <button>
-                            <img src="/assets/lupa 1.png" alt="">
+                <nav class="navbar__menu">
+                    <div class="menu__de__navegacion">
+                        <img src="/assets/Sin título-1 1.png" alt="">
+                        <button class="home">
+                            <img src="/assets/hogar 1@2x (1) 1 (2).png" alt="">
                         </button>
+    
+                        <div class="box">
+                            <input type="text"
+                            placeholder="Buscar...">
+                            <i class="fa-solid
+                            fa-magnifying-glass"></i>
+                        </div>
+    
+    
+                        <button class="button">Registrate</button>
+                        <button class="button__a">Iniciar sesion</button>
                     </div>
+                </nav>
 
-
-                    <button>Registrate</button>
-                    <button>Iniciar sesion</button>
-                </div>
-
-                <div>
+                <aside class="">
 
                     <div>
                         <h1>Tu biblioteca</h1>
@@ -77,33 +81,14 @@
                             <img src="/assets/Vector (1).png" alt="">
                             <img src="/assets/Vector (2).png" alt="">
                         </div>
-
                     </footer>
 
-                    
-                </div>    
-                
+
+                </aside>
+
             </nav>
         </header>
         <div>
-            <img src="/assets/m1000x1000 1.jpg" alt="">
-            <p>Blindin ligh</p>
-            <p>The Weeknd</p>
-
-            <div>
-                <button>
-                    <img src="/assets/skip_next_filled.png" alt="">
-                </button>
-                <button>
-                    <img src="/assets/Play circle.png" alt="">
-                </button>
-                <button>
-                    <img src="/assets/skip_next_filled (1).png" alt="">
-                </button>
-                <button>
-                    <img src="/assets/Repeat.png" alt="">
-                </button>
-            </div>
 
             <section>
                 <h1>
@@ -115,29 +100,33 @@
             <div>
                 <hr>
             </div>
-            <section class="album"
-            id="container">
-
-                <div>
-                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3.png"alt="">
-                    <p>name artist</p>
-                </div>
-
-                <div>
-                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3.png"alt="">
-                    <p>name artist</p>
-                </div>
-
-                <div>
-                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3.png" alt="">
-                    <p>name artist</p>
-                </div>
-
+            <section class="album" id="container">
 
             </section>
-            
-        </div>   
+
+        </div>
     </div>
+
+    <footer class="reproductor">
+        <img src="/assets/m1000x1000 1.jpg" alt="">
+        <p>Blindin ligh</p>
+        <p>The Weeknd</p>
+
+        <div class="reproductor__play">
+            <button>
+                <img src="/assets/skip_next_filled.png" alt="">
+            </button>
+            <button>
+                <img src="/assets/Play circle.png" alt="">
+            </button>
+            <button>
+                <img src="/assets/skip_next_filled (1).png" alt="">
+            </button>
+            <button>
+                <img src="/assets/Repeat.png" alt="">
+            </button>
+        </div>
+    </footer>
 
     <script src="/script.js"></script>
 </body>

@@ -18,12 +18,82 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-
-
+    border-radius: 27px;
+    padding: 38px 68px;
+    background-color: #F2DDB6;
 
 }
 
-outline
+.button{
+    border-radius: 16px;
+    background-color: #D95A4E;
+    padding: 7px 68px;
+    color: white;
+}
 
+.button__a{
+    border-radius:16px;
+    background-color:white;
+    padding: 7px 68px;
+}
+
+.image__input{
+    background-image:url(/assets/);
+}
+/*outline*/
+.box{
+    background-color: white;
+    width: 330px;
+    height: 38px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+input{
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+
+.fa-solid:hover{
+    color: #D95A4E;
+    cursor: pointer;
+}
+
+.home{
+    border-radius: 13px;
+    background-color: white;
+    padding: 7px 7px;
+
+}
+
+.reproductor{
+    background-color:#D0D0D0;
+    align-items: center;
+    flex-direction: column;
+    padding: 28px 56px;
+
+}
+.reproductor__play{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar__menu{
+    padding: 52px 32px;
+}
+
+.album{
+    display: flex;
+    flex-basis: 80px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 40px 40px;
+
+}
