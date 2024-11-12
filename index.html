@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghost music</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <meta name="keywords" content=" Musica artistas escuchar sonido reggaeton rock pop">
     <meta name="description"
         content="Descubre Ghost Music, el portal definitivo para los amantes de la música. Sumérgete en un mundo sonoro donde cada nota cuenta una historia. Desde los clásicos eternos hasta las últimas tendencias, Ghost Music te ofrece una experiencia auditiva inolvidable. Explora, escucha y comparte la magia de la música sin límites.">
@@ -28,78 +31,106 @@
 
 
 
-<body>
+<body class="fond">
     <div>
         <header class="navbar">
             <nav class="navbar__nav">
-                <nav class="navbar__menu">
-                    <div class="menu__de__navegacion">
+                <main class="navbar__menu">
+                    <section class="menu__de__navegacion">
                         <img src="/assets/Sin título-1 1.png" alt="">
                         <button class="home">
                             <img src="/assets/hogar 1@2x (1) 1 (2).png" alt="">
                         </button>
-    
+
                         <div class="box">
-                            <input type="text"
-                            placeholder="Buscar...">
+                            <input type="text" placeholder="Buscar...">
                             <i class="fa-solid
                             fa-magnifying-glass"></i>
                         </div>
-    
-    
+
+
                         <button class="button">Registrate</button>
                         <button class="button__a">Iniciar sesion</button>
+                    </section>
+                </main>
+
+                <header class="biblioteca">
+
+                    <div class="book">
+                        <h1 class="book__text">Tu biblioteca</h1>
+                        <img src="/assets/Vector.png" alt="">
                     </div>
-                </nav>
 
-                <aside class="">
-
-                    <div>
-                        <h1>Tu biblioteca</h1>
-                        <img src="/assets/Vector.jpg" alt="">
-                    </div>
-
-                    <div>
+                    <div class="card">
                         <h2>Crea tu playlist</h2>
-                        <p>Hazla comletamente gratis</p>
-                        <button>Crear</button>
+                        <button class="click">Crear</button>
                     </div>
 
-                    <div>
-                        <h2>¡Nueva Musica!</h2>
-                        <button>Explorar</button>
+                    <div class="card__1">
+                        <h3>¡Nueva Musica!</h3>
+                        <button class="click">Explorar</button>
                     </div>
 
                     <footer>
-                        <div>
+                        <div class="footer">
                             <p>©2019-2024,Ghost Music,Inc.</p>
                             <p>Terms and conditions</p>
                             <p>Privacy Policy</p>
                         </div>
                         <div>
-                            <img src="/assets/Vector.png" alt="">
+                            <img src="/assets/fa6-brands_square-x-twitter.png" alt="">
                             <img src="/assets/Vector (1).png" alt="">
                             <img src="/assets/Vector (2).png" alt="">
                         </div>
                     </footer>
 
 
-                </aside>
+                </header>
 
             </nav>
         </header>
         <div>
 
-            <section>
-                <h1>
-                    Déjate envolver por las melodías de Ghost Music,descubre nuevos talentos y sumérgeteen
+            <section class="description">
+                <h1 class="itim-regular">
+                    Déjate envolver por las melodías de Ghost Music,descubre nuevos talentos y sumérgete en
                     una calidad de audio espectral.
                 </h1>
             </section>
 
-            <div>
-                <hr>
-            </div>
+            <hr class="linea">
+            <section class="cantantes__container">
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (9).png" alt="">
+                    <p class="titulo">Ysy</p>
+                </div>
+
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (10).png" alt="">
+                    <p class="titulo__n">Niki Nicole</p>
+                </div>
+
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (8).png" alt="">
+                    <p class="titulo">Quevedo</p>
+                </div>
+
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (6).png" alt="">
+                    <p class="titulo">Alvaro Diaz</p>
+                </div>
+
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (7).png" alt="">
+                    <p class="titulo">Duki</p>
+                </div>
+
+                <div>
+                    <img src="/assets/6d2eeb0eaa66fbe2e6fbe3136e5e1680--the-weeknd-album-cover 3 (5).png" alt="">
+                    <p class="titulo">suei</p>
+                </div>
+            </section>
+
             <section class="album" id="container">
 
             </section>
@@ -107,26 +138,21 @@
         </div>
     </div>
 
-    <footer class="reproductor">
-        <img src="/assets/m1000x1000 1.jpg" alt="">
-        <p>Blindin ligh</p>
-        <p>The Weeknd</p>
+    <div class="reproductor">
 
-        <div class="reproductor__play">
-            <button>
-                <img src="/assets/skip_next_filled.png" alt="">
-            </button>
-            <button>
-                <img src="/assets/Play circle.png" alt="">
-            </button>
-            <button>
-                <img src="/assets/skip_next_filled (1).png" alt="">
-            </button>
-            <button>
-                <img src="/assets/Repeat.png" alt="">
-            </button>
-        </div>
-    </footer>
+        <button class="Reproducir">
+            <img src="/assets/skip_next_filled.png" alt="">
+        </button>
+        <button class="Reproducir">
+            <img src="/assets/Play circle.png" alt="">
+        </button>
+        <button class="Reproducir">
+            <img src="/assets/skip_next_filled (1).png" alt="">
+        </button>
+        <button class="Reproducir">
+            <img src="/assets/Repeat.png" alt="">
+        </button>
+    </div>
 
     <script src="/script.js"></script>
 </body>

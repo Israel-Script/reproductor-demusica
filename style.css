@@ -73,7 +73,8 @@ input{
 }
 
 .reproductor{
-    background-color:#D0D0D0;
+    background: rgb(213, 213, 213);
+    background: radial-gradient(circle, rgb(213,213,213) 0%, rgba(185,185,185,1) 54%, rgba(179,179,179,1) 86%,rgba(161,161,161,1)100%);
     align-items: center;
     flex-direction: column;
     padding: 28px 56px;
@@ -96,4 +97,159 @@ input{
     justify-content: center;
     padding: 40px 40px;
 
+}
+
+.cantantes__container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px;
+    display: flex;
+}
+
+.titulo{
+    font-weight: bold;
+    padding:20px 40px;
+    font-family: "Itim";
+    font-weight: normal;
+
+}
+
+.titulo__n{
+    font-weight: bold;
+    padding: 20px 25px;
+    font-family: "Itim";
+    font-weight: normal;
+}
+
+.description{
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 25px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar__menu{
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea{
+    background-color: black;
+    height: 2px;
+}
+
+.biblioteca{
+    background-color: #8C2020;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.cantantes__container{
+    margin-left: 220px;
+    padding: 20px;
+    color: white;
+}
+
+.description{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.album{
+    margin-left: 220px;
+    padding: 20px;
+    margin-bottom: 200px;
+    color: white;
+}
+
+.menu__de__navegacion{
+    margin-left: 220px;
+    padding: 25px;
+}
+
+.reproductor{
+    margin-left: 200px;
+    padding: 20px;
+    position: fixed;
+    height: 145px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+.Reproducir{
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.card{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    background-color: #963C33;
+    border-radius: 24px;
+    margin: 48px 20px;
+    color: white;
+}
+.card__1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 48px;
+    background-color: #963C33;
+    border-radius: 24px;
+    margin: 48px 20px;
+    color: white;
+
+}
+
+.fond{
+    background-color: #1D1D1D;
+}
+
+.book{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.book__text{
+    font-family: "Itim";
+}
+
+.click{
+    border-radius: 17px;
+    background-color: #F2DDB6;
+    color: #000000;
+    font-weight: bold;
+    padding: 6px 25px;
+    align-items: center;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.footer{
+    color: #C5C5C5;
 }
