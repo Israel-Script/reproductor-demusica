@@ -1,0 +1,309 @@
+/*Estilos para el reproductor*/
+* {
+    box-sizing: border-box;
+
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+
+    list-style:none ;
+    text-decoration: none;
+    font: size 1rem;;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.menu__de__navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 27px;
+    padding: 38px 68px;
+    background-color: #F2DDB6;
+
+}
+
+.button{
+    border-radius: 16px;
+    background-color: #D95A4E;
+    padding: 7px 68px;
+    color: white;
+}
+
+.button__a{
+    border-radius:16px;
+    background-color:white;
+    padding: 7px 68px;
+}
+
+.image__input{
+    background-image:url(/assets/);
+}
+/*outline*/
+.box{
+    background-color: white;
+    width: 330px;
+    height: 38px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+
+
+.home{
+    border-radius: 13px;
+    background-color: white;
+    padding: 7px 7px;
+
+}
+
+.reproductor{
+    background: rgb(213, 213, 213);
+    background: radial-gradient(circle, rgb(213,213,213) 0%, rgba(185,185,185,1) 54%, rgba(179,179,179,1) 86%,rgba(161,161,161,1)100%);
+    align-items: center;
+    padding: 28px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    position: sticky;
+    top: 0;
+    height: 145px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.play{
+    margin-left: 140px;
+    background: none;
+}
+.navbar__menu{
+    padding: 52px 32px;
+}
+
+.album{
+    display: flex;
+    flex-basis: 80px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 40px 40px;
+
+}
+
+.song .container {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+
+}
+.song img{
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+.song:hover img {
+    transform: scale(1.1);
+
+}
+
+.cantantes__container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px;
+    display: flex;
+}
+
+.titulo{
+    font-weight: bold;
+    padding:20px 40px;
+    font-family: "Itim";
+    font-weight: normal;
+    color: #FCFCFC;
+
+}
+
+.titulo__n{
+    font-weight: bold;
+    padding: 20px 25px;
+    font-family: "Itim";
+    font-weight: normal;
+    color: #FCFCFC;
+}
+
+.description{
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 25px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar__menu{
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea{
+    background-color: black;
+    height: 2px;
+}
+
+.biblioteca{
+    background-color: #8C2020;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.cantantes__container{
+    margin-left: 220px;
+    padding: 20px;
+    color: white;
+}
+
+.description{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.album{
+    margin-left: 200px;
+    padding: 20px 10px;
+    margin-bottom: 120px;
+}
+
+.menu__de__navegacion{
+    margin-left: 220px;
+    padding: 25px;
+}
+
+.card{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 20px;
+    background-color: #963C33;
+    border-radius: 24px;
+    margin: 38px 20px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fond{
+    background-color: #1D1D1D;
+}
+
+.book{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.book__text{
+    font-family: "Itim";
+}
+
+.click{
+    border-radius: 17px;
+    background-color: #F2DDB6;
+    color: #000000;
+    font-weight: bold;
+    padding: 6px 25px;
+    align-items: center;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.footer{
+    color: #C5C5C5;
+    text-align: center;
+    font-size: small;
+    margin: 10px 28px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: 10px 10px;
+
+}
+
+.texto{
+    padding-bottom: 12px;
+}
+
+
+.button:hover{
+    background-color: #CD493D;
+    transform: scale(1.1);
+}
+
+.button:active{
+    background-color: #E89C95;
+    transition: 3s;
+
+
+}
+
+.button__a:hover{
+    background-color: #F5F5F5;
+    transform: scale(1.1);
+}
+
+.button__a:active{
+    background-color: #E7E7E7;
+    transition: 3s;
+}
+
+.click:hover{
+    background-color: #FF9294;
+    transform: scale(1.1);
+}
+
+.ysy:hover{
+    transform: scale(1.1);
+}
+.niki:hover{
+    transform: scale(1.1);
+}
+.qvd:hover{
+    transform: scale(1.1);
+}
+.alv:hover{
+    transform: scale(1.1);
+}
+.duki:hover{
+    transform: scale(1.1);
+}
+.suei:hover{
+    transform: scale(1.1);
+}
+
+.border{
+    background: none;
+    border: none;
+}
