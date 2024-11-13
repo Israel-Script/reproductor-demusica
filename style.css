@@ -239,6 +239,49 @@
     padding-bottom: 12px;
 }
 
-.true{
-    background: none;
+
+.button:hover{
+    background-color: #CD493D;
+    transform: scale(1.1);
+}
+
+.button:active{
+    background-color: #E89C95;
+    transition: 3s;
+
+
+}
+
+.button__a:hover{
+    background-color: #F5F5F5;
+    transform: scale(1.1);
+}
+
+.button__a:active{
+    background-color: #E7E7E7;
+    transition: 3s;
+}
+
+.click:hover{
+    background-color: #FF9294;
+    transform: scale(1.1);
+}
+
+.ysy:hover{
+    transform: scale(1.1);
+}
+.niki:hover{
+    transform: scale(1.1);
+}
+.qvd:hover{
+    transform: scale(1.1);
+}
+.alv:hover{
+    transform: scale(1.1);
+}
+.duki:hover{
+    transform: scale(1.1);
+}
+.suei:hover{
+    transform: scale(1.1);
 }
