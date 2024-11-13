@@ -106,6 +106,7 @@
     padding:20px 40px;
     font-family: "Itim";
     font-weight: normal;
+    color: #FCFCFC;
 
 }
 
@@ -114,6 +115,7 @@
     padding: 20px 25px;
     font-family: "Itim";
     font-weight: normal;
+    color: #FCFCFC;
 }
 
 .description{
@@ -284,4 +286,9 @@
 }
 .suei:hover{
     transform: scale(1.1);
+}
+
+.border{
+    background: none;
+    border: none;
 }
